@@ -1,0 +1,11 @@
+java:
+  stage: test
+  tags:
+    - local
+  script:
+    - ./gradlew clean test
+  artifacts:
+    when: always
+    paths:
+      - "build/test-results/test/TEST-*.xml"
+      - "build/reports/tests/test"

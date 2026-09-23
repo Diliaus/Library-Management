@@ -1,0 +1,501 @@
+{
+  "systemConfig": {
+    "maxBorrowDays": 14,
+    "fineRatePerDay": 5000.0,
+    "reservationExpiryDays": 3,
+    "maxSimultaneousReservations": 3
+  },
+  "catalogItems": [
+    {
+      "id": "MAG00000002",
+      "type": "MAGAZINE",
+      "title": "Time Magazine",
+      "publishYear": 2024,
+      "category": "News",
+      "copies": 1,
+      "issn": "0040-781X",
+      "cycle": "Weekly",
+      "availableCopies": 7,
+      "reservationQueue": []
+    },
+    {
+      "id": "MAG00000001",
+      "type": "MAGAZINE",
+      "title": "National Geographic",
+      "publishYear": 2020,
+      "category": "Science",
+      "copies": 1,
+      "issn": "0027-9358",
+      "cycle": "Monthly",
+      "availableCopies": 10,
+      "reservationQueue": []
+    },
+    {
+      "id": "MAG00000004",
+      "type": "MAGAZINE",
+      "title": "Scientific American",
+      "publishYear": 2021,
+      "category": "Science",
+      "copies": 1,
+      "issn": "0036-8733",
+      "cycle": "Monthly",
+      "availableCopies": 4,
+      "reservationQueue": []
+    },
+    {
+      "id": "MAG00000003",
+      "type": "MAGAZINE",
+      "title": "The Economist",
+      "publishYear": 2023,
+      "category": "News",
+      "copies": 1,
+      "issn": "0013-0613",
+      "cycle": "Weekly",
+      "availableCopies": 5,
+      "reservationQueue": []
+    },
+    {
+      "id": "EBK00000001",
+      "type": "EBOOK",
+      "title": "Introduction to Algorithms",
+      "publishYear": 2009,
+      "category": "Technology",
+      "copies": 1,
+      "pages": 1292,
+      "format": "PDF",
+      "fileSize": 45.2,
+      "downloadUrl": "https://download.resource/algo.pdf"
+    },
+    {
+      "id": "MAG00000005",
+      "type": "MAGAZINE",
+      "title": "reservableMagazine",
+      "publishYear": 2000,
+      "category": "news",
+      "copies": 1,
+      "issn": "1234-1233",
+      "cycle": "Weekly",
+      "availableCopies": 0,
+      "reservationQueue": []
+    },
+    {
+      "id": "BOK00000001",
+      "type": "BOOK",
+      "title": "The Great Gatsby",
+      "publishYear": 1925,
+      "category": "Fiction",
+      "copies": 1,
+      "pages": 180,
+      "isbn": "9780743273565",
+      "author": "F. Scott Fitzgerald",
+      "availableCopies": 4,
+      "reservationQueue": []
+    },
+    {
+      "id": "BOK00000005",
+      "type": "BOOK",
+      "title": "1984 George Orwell",
+      "publishYear": 1949,
+      "category": "Fiction",
+      "copies": 1,
+      "pages": 328,
+      "isbn": "9780451524935",
+      "author": "George Orwell",
+      "availableCopies": 8,
+      "reservationQueue": []
+    },
+    {
+      "id": "BOK00000004",
+      "type": "BOOK",
+      "title": "Sapiens A Brief History",
+      "publishYear": 2011,
+      "category": "History",
+      "copies": 1,
+      "pages": 443,
+      "isbn": "9780062316097",
+      "author": "Yuval Noah Harari",
+      "availableCopies": 6,
+      "reservationQueue": []
+    },
+    {
+      "id": "BOK00000003",
+      "type": "BOOK",
+      "title": "A Brief History of Time",
+      "publishYear": 1988,
+      "category": "Science",
+      "copies": 1,
+      "pages": 212,
+      "isbn": "9780553380163",
+      "author": "Stephen Hawking",
+      "availableCopies": 3,
+      "reservationQueue": []
+    },
+    {
+      "id": "BOK00000002",
+      "type": "BOOK",
+      "title": "To Kill a Mockingbird",
+      "publishYear": 1960,
+      "category": "Fiction",
+      "copies": 1,
+      "pages": 281,
+      "isbn": "9780446310789",
+      "author": "Harper Lee",
+      "availableCopies": 3,
+      "reservationQueue": []
+    },
+    {
+      "id": "EBK00000004",
+      "type": "EBOOK",
+      "title": "The Pragmatic Programmer",
+      "publishYear": 1999,
+      "category": "Technology",
+      "copies": 1,
+      "pages": 352,
+      "format": "EPUB",
+      "fileSize": 5.1,
+      "downloadUrl": "https://download.resource/pragmatic.epub"
+    },
+    {
+      "id": "EBK00000002",
+      "type": "EBOOK",
+      "title": "Clean Code",
+      "publishYear": 2008,
+      "category": "Technology",
+      "copies": 1,
+      "pages": 464,
+      "format": "EPUB",
+      "fileSize": 12.5,
+      "downloadUrl": "https://download.resource/cleancode.epub"
+    },
+    {
+      "id": "EBK00000003",
+      "type": "EBOOK",
+      "title": "Effective Java",
+      "publishYear": 2018,
+      "category": "Technology",
+      "copies": 1,
+      "pages": 412,
+      "format": "PDF",
+      "fileSize": 8.4,
+      "downloadUrl": "https://download.resource/effjava.pdf"
+    },
+    {
+      "id": "BOK00000006",
+      "type": "BOOK",
+      "title": "BookReservable",
+      "publishYear": 2000,
+      "category": "action",
+      "copies": 1,
+      "pages": 100,
+      "isbn": "9781234567890",
+      "author": "iliya",
+      "availableCopies": 0,
+      "reservationQueue": [
+        "iliyahksht@gmail.com",
+        "guest@gmail.com",
+        "mdn.nayyeri@gmail.com"
+      ]
+    },
+    {
+      "id": "AUD00000001",
+      "type": "AUDIO_BOOK",
+      "title": "The Hobbit",
+      "publishYear": 1937,
+      "category": "Fiction",
+      "copies": 1,
+      "duration": 310,
+      "format": "MP3",
+      "fileSize": 320.0,
+      "downloadUrl": "https://audio.resource/hobbit.mp3"
+    },
+    {
+      "id": "AUD00000002",
+      "type": "AUDIO_BOOK",
+      "title": "Atomic Habits",
+      "publishYear": 2018,
+      "category": "Self-Help",
+      "copies": 1,
+      "duration": 320,
+      "format": "M4B",
+      "fileSize": 185.5,
+      "downloadUrl": "https://audio.resource/habits.m4b"
+    },
+    {
+      "id": "AUD00000003",
+      "type": "AUDIO_BOOK",
+      "title": "The Alchemist",
+      "publishYear": 1988,
+      "category": "Fiction",
+      "copies": 1,
+      "duration": 163,
+      "format": "MP3",
+      "fileSize": 110.2,
+      "downloadUrl": "https://audio.resource/alchemist.mp3"
+    },
+    {
+      "id": "AUD00000004",
+      "type": "AUDIO_BOOK",
+      "title": "Thinking Fast and Slow",
+      "publishYear": 2011,
+      "category": "Science",
+      "copies": 1,
+      "duration": 499,
+      "format": "MP3",
+      "fileSize": 412.0,
+      "downloadUrl": "https://audio.resource/thinking.mp3"
+    }
+  ],
+  "regularUsers": [
+    {
+      "memberId": "GST000002",
+      "username": "mdn.nayyeri@gmail.com",
+      "password": "Mansi@123",
+      "firstName": "Mansi",
+      "lastName": "Nayyeri",
+      "email": "mdn.nayyeri@gmail.com",
+      "phoneNumber": "09125671850",
+      "active": true,
+      "role": "GUEST",
+      "walletBalance": 0.0,
+      "transactions": [],
+      "borrowRecords": [
+        {
+          "itemId": "BOK00000001",
+          "borrowDate": "2026-07-09T20:55:26.9147381",
+          "dueDate": "2026-07-23T20:55:26.9147381",
+          "returned": false
+        }
+      ],
+      "tickets": [],
+      "reservations": [
+        {
+          "itemId": "BOK00000006",
+          "reservationDate": "2026-07-09T20:55:52.1170692",
+          "expiryDate": "2026-07-12T20:55:52.1170692",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "memberId": "GST000001",
+      "username": "guest@gmail.com",
+      "password": "Guest@123",
+      "firstName": "guestam",
+      "lastName": "2",
+      "email": "guest@gmail.com",
+      "phoneNumber": "09121111111",
+      "active": true,
+      "role": "GUEST",
+      "walletBalance": 0.0,
+      "transactions": [],
+      "borrowRecords": [
+        {
+          "itemId": "AUD00000001",
+          "borrowDate": "2026-07-09T14:57:50.2645794",
+          "dueDate": "2027-07-09T14:57:50.2645794",
+          "returned": true
+        },
+        {
+          "itemId": "AUD00000001",
+          "borrowDate": "2026-07-09T14:57:57.3195549",
+          "dueDate": "2027-07-09T14:57:57.3195549",
+          "returned": true
+        },
+        {
+          "itemId": "AUD00000001",
+          "borrowDate": "2026-07-09T14:58:04.3836341",
+          "dueDate": "2027-07-09T14:58:04.3836341",
+          "returned": false
+        }
+      ],
+      "tickets": [],
+      "reservations": [
+        {
+          "itemId": "BOK00000006",
+          "reservationDate": "2026-07-09T14:56:47.7971922",
+          "expiryDate": "2026-07-12T14:56:47.7971922",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "memberId": "STU000001",
+      "username": "iliyahksht@gmail.com",
+      "password": "Iliya@123",
+      "firstName": "Iliya1",
+      "lastName": "Hajarkesht",
+      "email": "iliyahksht@gmail.com",
+      "phoneNumber": "09392285768",
+      "active": true,
+      "role": "STUDENT",
+      "walletBalance": 11000.0,
+      "transactions": [
+        {
+          "type": "CHARGE",
+          "amount": 10000.0,
+          "date": "2026-07-05T19:35:47.6541605",
+          "description": "Wallet charged"
+        },
+        {
+          "type": "CHARGE",
+          "amount": 1000.0,
+          "date": "2026-07-05T20:29:49.9325547",
+          "description": "Wallet charged"
+        }
+      ],
+      "borrowRecords": [
+        {
+          "itemId": "BOK00000003",
+          "borrowDate": "2026-07-05T19:34:51.1735538",
+          "dueDate": "2026-08-02T19:34:51.1735538",
+          "returned": false
+        },
+        {
+          "itemId": "BOK00000001",
+          "borrowDate": "2026-07-05T19:36:48.1298855",
+          "dueDate": "2026-07-19T19:36:48.1298855",
+          "returned": true
+        }
+      ],
+      "tickets": [],
+      "reservations": [
+        {
+          "itemId": "BOK00000006",
+          "reservationDate": "2026-07-05T19:50:47.0205317",
+          "expiryDate": "2026-07-08T19:50:47.0205317",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "memberId": "STU000001",
+      "username": "aliahmadi@kntu.ac.ir",
+      "password": "PassAli1234!",
+      "firstName": "Ali",
+      "lastName": "Alavi",
+      "email": "aliahmadi@kntu.ac.ir",
+      "phoneNumber": "09121111111",
+      "active": true,
+      "role": "STUDENT",
+      "walletBalance": 0.0,
+      "transactions": [],
+      "borrowRecords": [
+        {
+          "itemId": "BOK00000001",
+          "borrowDate": "2026-07-05T19:32:18.17286",
+          "dueDate": "2026-07-19T19:32:18.17286",
+          "returned": true
+        }
+      ],
+      "tickets": [],
+      "reservations": []
+    }
+  ],
+  "supporters": [
+    {
+      "username": "TechnicalSupporter",
+      "password": "Tech@123",
+      "firstName": "Technical",
+      "lastName": "Supporter",
+      "email": "techsup@gmail.com",
+      "phoneNumber": "09125681990",
+      "active": true,
+      "createdByAdminEmail": "admin@kntu.ac.ir",
+      "blocked": false,
+      "assignedSections": [
+        "TECHNICAL"
+      ]
+    },
+    {
+      "username": "supporter1",
+      "password": "Support@123",
+      "firstName": "Support",
+      "lastName": "One",
+      "email": "supporter1@kntu.ac.ir",
+      "phoneNumber": "09123456788",
+      "active": true,
+      "createdByAdminEmail": "admin@kntu.ac.ir",
+      "blocked": false,
+      "assignedSections": [
+        "BOOKS"
+      ]
+    },
+    {
+      "username": "BookSupporter",
+      "password": "Book@123",
+      "firstName": "Book",
+      "lastName": "Supporter",
+      "email": "booksup@gmail.com",
+      "phoneNumber": "09125671860",
+      "active": true,
+      "createdByAdminEmail": "admin@kntu.ac.ir",
+      "blocked": false,
+      "assignedSections": [
+        "BOOKS"
+      ]
+    }
+  ],
+  "admins": [
+    {
+      "username": "subadmin1",
+      "password": "subADMIN@123",
+      "firstName": "sun",
+      "lastName": "admin",
+      "email": "subad@gmail.com",
+      "phoneNumber": "09392226677",
+      "active": true
+    },
+    {
+      "username": "admin",
+      "password": "Admin@123",
+      "firstName": "System",
+      "lastName": "Administrator",
+      "email": "admin@kntu.ac.ir",
+      "phoneNumber": "09123456789",
+      "active": true
+    }
+  ],
+  "fines": [
+    {
+      "userEmail": "aliahmadi@kntu.ac.ir",
+      "amount": 25000.0,
+      "paid": false,
+      "dateIssued": "2026-07-05T19:32:18.1738592"
+    }
+  ],
+  "supportRequests": [
+    {
+      "id": "REQ000001",
+      "userEmail": "iliyahksht@gmail.com",
+      "section": "BOOKS",
+      "message": "dalam",
+      "response": "dalam",
+      "status": "CLOSED"
+    },
+    {
+      "id": "REQ000002",
+      "userEmail": "iliyahksht@gmail.com",
+      "section": "TECHNICAL",
+      "message": "technical req",
+      "response": "req handled",
+      "status": "CLOSED"
+    },
+    {
+      "id": "REQ000003",
+      "userEmail": "mdn.nayyeri@gmail.com",
+      "section": "BOOKS",
+      "message": "i want that book",
+      "response": "",
+      "status": "OPEN"
+    }
+  ],
+  "idGeneratorCounters": {
+    "AUD": 5,
+    "MAG": 6,
+    "STU": 2,
+    "GST": 3,
+    "BOK": 7,
+    "EBK": 5,
+    "REQ": 4
+  }
+}
